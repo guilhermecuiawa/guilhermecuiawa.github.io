@@ -1,0 +1,53 @@
+:root {
+    --fonte-primaria: 'Poppins', sans-serif;
+    /* Definindo a variável */
+}
+
+body {
+    font-family: var(--fonte-primaria);
+    /* Usando a variável */
+    background-color: #EBECEE;
+    /* Exemplo de cor de fundo */
+    font-size: 16px;
+    font-weight: 300;
+}
+
+table {
+    margin: 20px auto;
+    width: 90%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+th,
+td {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+caption {
+    caption-side: top;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+th.descricao,
+td.descricao {
+    max-width: 200px;
+    /* Limita a largura da célula */
+    word-wrap: break-word;
+    /* Quebra a linha automaticamente */
+    white-space: normal;
+    /* Permite quebras de linha */
+}
